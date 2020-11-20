@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "laravel/framework": ">=5.5"
+        "laravel/framework": ">=5.5",
+        "jncinet/qihucms-passport-oauth": ">=1.0"
     },
     "autoload": {
         "psr-4": {
