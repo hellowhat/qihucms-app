@@ -1,0 +1,28 @@
+{
+    "name": "qihucms/app",
+    "description": "qihucms app api and config",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "zhwcom",
+            "email": "383567226@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qihucms\\app\\": "packages/qihucms/app/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qihucms\\App\\QihuAppServiceProvider"
+            ]
+        }
+    }
+}
